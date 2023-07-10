@@ -1,9 +1,9 @@
 import React from 'react';
 import { ListRenderItemInfo, FlatList } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import Layout from '../../components/Layout/Layout';
 import * as S from './styles';
 import car from '../../assets/car.png';
-
 import {
   FontAwesome,
   Entypo,
@@ -15,6 +15,7 @@ import menuOptions from '../../mocks/menuOptions';
 import MenuOptions, { IMenuOptions } from '../../components/MenuOptions/MenuOption';
 
 const Controls = () => {
+
   return (
     <React.Fragment>
       <S.Car source={car} resizeMode="contain" />
@@ -28,13 +29,13 @@ const Controls = () => {
   )
 }
 
-function renderItem({ item }: ListRenderItemInfo<IMenuOptions>) {
-  return (
-    <MenuOptions {...item} />
-  )
-}
-
 const Home: React.FC = () => {
+
+  const navigation = useNavigation<any>();
+
+  const renderItem = ({ item }: ListRenderItemInfo<IMenuOptions>) =>
+    <MenuOptions {...item} navigation={() => navigation.navigate("Climate")} />
+
   return (
     <Layout>
       <S.Header>

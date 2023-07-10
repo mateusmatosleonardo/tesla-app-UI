@@ -1,10 +1,13 @@
 import { RFValue } from "react-native-responsive-fontsize";
 import styled from "styled-components/native";
+import { StatusBar } from "react-native";
+
+const statusBar = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 
 export const Header = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 22px;
+  margin-top: ${statusBar}px;
   padding: 0px 22px;
 `;
 
@@ -24,7 +27,7 @@ export const Box = styled.View``;
 
 export const Car = styled.Image`
   width: 100%;
-  height: 270px;
+  height: 245px;
 `;
 
 export const WrapperControls = styled.View`
