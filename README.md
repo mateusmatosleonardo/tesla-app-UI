@@ -20,7 +20,7 @@ your local machine for development and testing purposes.
 Requirements for software and other tools to build, test and ship:
 - Node.js
 - Expo CLI
-- Dispositivo físico ou emulador
+- Physical device or emulator
 
 ## Installation
 
