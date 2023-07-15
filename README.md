@@ -2,7 +2,7 @@
 
 # Tesla App
 
-Este projeto é apenas sobre um aplicativo fictício para simular a interface do usuário do aplicativo Tesla.
+This project is just a dummy app to simulate Tesla App UI.
 
 ## Preview
 <img src="https://github.com/mateusmatosleonardo/tesla-app-UI/assets/73812069/6543dd1d-aff0-4a35-b229-bcf482d7e49f" width="200px;" alt="screen-one"/>
@@ -10,33 +10,33 @@ Este projeto é apenas sobre um aplicativo fictício para simular a interface do
 &nbsp;
 <img src="https://github.com/mateusmatosleonardo/tesla-app-UI/assets/73812069/cd4bdcb6-3a69-4f6b-8a94-d34e3f82fb27" width="200px;" alt="screen-one"/>
 
-## Começando
+## Get started
 
-Estas instruções fornecerão a você uma cópia do projeto instalado e funcionando no
-sua máquina local para fins de desenvolvimento e teste.
+These instructions will get you a copy of the project up and running in
+your local machine for development and testing purposes.
 
-## Pré-requisitos
+## Prerequisites
 
-Requisitos para o software e outras ferramentas para construir, testar e enviar:
+Requirements for software and other tools to build, test and ship:
 - Node.js
 - Expo CLI
 - Dispositivo físico ou emulador
 
-## Instalação
+## Installation
 
-Instalação de dependências
+Installation of dependencies
 
     yarn install or npm install
 
-Executando o bundle
+Running the bundle
 
     npx expo start
 
-## Contribuindo
+## Contributing
 
-Se você estiver interessado em contribuir com o projeto ou quiser relatar um bug que encontrou durante o desenvolvimento, ficarei feliz em receber seus comentários.
+If you're interested in contributing to the project or would like to report a bug found during development, I'd be happy to hear your feedback.
 
-## Desenvolvedor
+## Developer
 
 <table>
   <tr>
@@ -51,8 +51,8 @@ Se você estiver interessado em contribuir com o projeto ou quiser relatar um bu
   </tr>
 </table>
 
-## Licença
+## License
 
-Este projeto está licenciado sob o [MIT License](LICENSE.md)
-Consulte a [LICENSE.md](LICENSE.md) arquivo para
-detalhes.
+This project is licensed under the [MIT License](LICENSE.md)
+See file [LICENSE.md](LICENSE.md) for
+details.
