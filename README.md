@@ -2,7 +2,7 @@
 
 # Tesla App
 
-This project is merely about a fictional app to simulate the UI of the Tesla app.
+Este projeto é apenas sobre um aplicativo fictício para simular a interface do usuário do aplicativo Tesla.
 
 ## Preview
 <img src="https://github.com/mateusmatosleonardo/tesla-app-UI/assets/73812069/6543dd1d-aff0-4a35-b229-bcf482d7e49f" width="200px;" alt="screen-one"/>
@@ -10,30 +10,33 @@ This project is merely about a fictional app to simulate the UI of the Tesla app
 &nbsp;
 <img src="https://github.com/mateusmatosleonardo/tesla-app-UI/assets/73812069/cd4bdcb6-3a69-4f6b-8a94-d34e3f82fb27" width="200px;" alt="screen-one"/>
 
-## Getting Started
+## Começando
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+Estas instruções fornecerão a você uma cópia do projeto instalado e funcionando no
+sua máquina local para fins de desenvolvimento e teste.
 
-### Prerequisites
+## Pré-requisitos
 
-Requirements for the software and other tools to build, test and push 
+Requisitos para o software e outras ferramentas para construir, testar e enviar:
 - Node.js
 - Expo CLI
-- Physical device or emulator
+- Dispositivo físico ou emulador
 
-### Installing
+## Instalação
 
-Installing dependencies
+Instalação de dependências
 
     yarn install or npm install
 
-Running the bundle
+Executando o bundle
 
     npx expo start
 
-## Developer
+## Contribuindo
+
+Se você estiver interessado em contribuir com o projeto ou quiser relatar um bug que encontrou durante o desenvolvimento, ficarei feliz em receber seus comentários.
+
+## Desenvolvedor
 
 <table>
   <tr>
@@ -48,8 +51,8 @@ Running the bundle
   </tr>
 </table>
 
-## License
+## Licença
 
-This project is licensed under the [MIT License](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details.
+Este projeto está licenciado sob o [MIT License](LICENSE.md)
+Consulte a [LICENSE.md](LICENSE.md) arquivo para
+detalhes.
